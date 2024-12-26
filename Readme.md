@@ -4,7 +4,7 @@ Un jeu d'arcade captivant avec une esthétique néon, développé en JavaScript 
 
 ![Ball](screenshots/gameplay.png)
 
-## 🌟 Caractéristiques
+## Caractéristiques
 
 - Design avec effets néon
 - Gameplay fluide et réactif
@@ -14,7 +14,7 @@ Un jeu d'arcade captivant avec une esthétique néon, développé en JavaScript 
 - Effets sonores et musique d'ambiance
 - Interface utilisateur intuitive
 
-## 🎯 Comment jouer
+## Comment jouer
 
 ### Sur ordinateur
 - Utilisez les flèches ⬅️ et ➡️ du clavier pour diriger la balle
@@ -25,27 +25,21 @@ Un jeu d'arcade captivant avec une esthétique néon, développé en JavaScript 
 - Touchez l'écran pour diriger la balle
 - Interface adaptative pour une expérience mobile optimale
 
-## 🛠️ Installation
-
-1. Clonez le repository
-2. Ouvrez le dossier du projet
-3. Lancez le jeu en ouvrant `index.html` dans votre navigateur préféré
-
-## 🔧 Technologies utilisées
+## Technologies utilisées
 
 - HTML5
 - CSS3
 - JavaScript
 - Canvas
 
-## 🎵 Options
+## Options
 
 Le jeu propose plusieurs paramètres personnalisables :
 - Volume de la musique
 - Volume des effets sonores
 - High scores sauvegardés localement
 
-## 🤝 Contribution
+## Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à :
 1. Fork le projet
@@ -54,27 +48,21 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 4. Push sur la branche
 5. Ouvrir une Pull Request
 
-## 📝 License
+## License
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
 
-## 👨‍💻 Auteur
+## Auteur
 
-**Tiavina**
-- GitHub: [@Tiavina22](https://github.com/Tiavina22)
+**Tiavina** [@Tiavina22](https://github.com/Tiavina22)
 
-## 🙏 Remerciements
-
-- Merci à tous les contributeurs qui auront participé à ce projet
+## Inspirations
 - Inspiré par les jeux d'arcade classiques
 
-## 📱 Compatibilité
+## Compatibilité
 
-- ✅ Chrome
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Mobile browsers
+- ✅ Navigateurs
+- ✅ Mobile
 
 ---
-Développé avec ❤️ par Tiavina
+Développé avec ❤️ par Tiavina22
