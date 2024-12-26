@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ball</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="score">Score: 0</div>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+    <div id="controls">
+        <!--
+        <button id="leftBtn">←</button>
+        <button id="rightBtn">→</button>
+        -->
+    </div>
+    <div id="game-over">
+        <h2>Game Over!</h2>
+        <p id="final-score"></p>
+        <p id="high-score"></p>
+        <button id="restart-btn">Rejouer</button>
+    </div>
+    <div id="main-menu">
+        <h1>Neon Ball</h1>
+        <button id="play-btn">Jouer</button>
+        <div class="menu-options">
+            <button id="how-to-play-btn">Comment jouer</button>
+            <button id="settings-btn">Options</button>
+        </div>
+    </div>
+    <div id="how-to-play" class="menu-screen">
+        <h2>Comment jouer</h2>
+        <div class="instructions">
+            <p>🖥️ Sur ordinateur : Utilisez les flèches gauche/droite pour diriger la balle</p>
+            <p>📱 Sur mobile : Touchez l'écran pour diriger la balle</p>
+            <p>⭐ Collectez les power-ups pour obtenir des bonus</p>
+            <p>❌ Évitez les balles rouges</p>
+            <p>© Tiavina</p>
+        </div>
+        <button class="back-btn">Retour</button>
+    </div>
+    <div id="settings" class="menu-screen">
+        <h2>Options</h2>
+        <div class="settings-content">
+            <div class="setting-item">
+                <label>Musique</label>
+                <input type="range" id="music-volume" min="0" max="100" value="30">
+            </div>
+            <div class="setting-item">
+                <label>Effets sonores</label>
+                <input type="range" id="sfx-volume" min="0" max="100" value="50">
+            </div>
+        </div>
+        <button class="back-btn">Retour</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
